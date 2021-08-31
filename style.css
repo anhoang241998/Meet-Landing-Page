@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap");
 
+/* 
+Hello everyone, I had just finished the challenge. I would appreciate any tips and recommendations on how to improve my code. By the way, I cannot use background combine color and image. It make my background disappear. Could someone explain why that happens and how to fix it? Thank you in advance.
+*/
+
 html {
   font-size: 62.5%;
   font-family: "Red Hat Display", sans-serif;
@@ -23,7 +27,6 @@ html {
 /* reset */
 h1,
 h2,
-h3,
 body,
 p,
 a {
@@ -50,7 +53,7 @@ h2 {
   font-size: 3.2rem;
   line-height: 3.6rem;
 }
-h3 {
+.meet-function-header {
   text-transform: uppercase;
   color: var(--color-green-dark);
   font-size: 1.6rem;
@@ -222,7 +225,7 @@ p {
 .footer-details {
   min-height: 42.8rem;
   background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./starter-code/assets/mobile/image-footer.jpg");
+    url("./assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -279,7 +282,7 @@ p {
   }
   .footer-details {
     background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./starter-code/assets/tablet/image-footer.jpg");
+    url("./assets/tablet/image-footer.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -321,7 +324,7 @@ p {
     justify-content: space-around;
     text-align: start;
     background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./starter-code/assets/desktop/image-footer.jpg");
+    url("./assets/desktop/image-footer.jpg");
     background-size: cover;
     background-position: center;
   }
