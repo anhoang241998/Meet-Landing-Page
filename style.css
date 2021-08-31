@@ -222,7 +222,7 @@ p {
 .footer-details {
   min-height: 42.8rem;
   background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./assets/mobile/image-footer.jpg");
+    url("./starter-code/assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -279,7 +279,7 @@ p {
   }
   .footer-details {
     background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./assets/tablet/image-footer.jpg");
+    url("./starter-code/assets/tablet/image-footer.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -321,7 +321,7 @@ p {
     justify-content: space-around;
     text-align: start;
     background: linear-gradient(rgb(77, 150, 169, 0.9), rgb(77, 150, 169, 0.9)),
-    url("./assets/desktop/image-footer.jpg");
+    url("./starter-code/assets/desktop/image-footer.jpg");
     background-size: cover;
     background-position: center;
   }
